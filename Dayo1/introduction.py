@@ -13,7 +13,7 @@ nickname = input("What is your nickname? ")
 
 print("Let's make sure we got this right")
 print("Your name: " + name)
-print("Your email address: " + email)           # '+' is used to concatenate two string
+print("Your email address: " + email)           # '+'is used to concatenate two string
 print("Your nickname: " + nickname)
 
 part1 = input("The 1st part: ")
