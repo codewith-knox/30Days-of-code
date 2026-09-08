@@ -6,6 +6,7 @@ var="var2"
 var=var+"\nchanges" # when u assigned new value to the variables old assigned value is replaced with new one
 print(var)
 
+# my solution mooc,fi
 name = "Tim Tester"
 age = 20
 skill1 = "python"
