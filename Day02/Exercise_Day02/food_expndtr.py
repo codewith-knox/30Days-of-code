@@ -20,5 +20,15 @@
 # Daily: 5.5 euros
 # Weekly: 38.5 euros
 
+student_cafeteria = int(input("How many times a week do you eat at the student cafeteria? "))
+price = float(input("The price of a typical student lunch? "))
+groceries = float(input("How much money do you spend on groceries in a week? "))
+print()
 
+others = student_cafeteria*price
+weekly = groceries+others
+daily = weekly/7        #7 days week → 1
+print("Average food expenditure:")
+print("Daily:",daily,"euros")
+print("Weekly:",weekly,"euros")
 
